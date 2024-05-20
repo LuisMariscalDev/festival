@@ -1,0 +1,27 @@
+{
+  "name": "festival",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS y NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisMariscalDev/festival.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "GULP"
+  ],
+  "author": "LuisMariscalDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisMariscalDev/festival/issues"
+  },
+  "homepage": "https://github.com/LuisMariscalDev/festival#readme",
+  "devDependencies": {
+    "sass": "^1.77.2"
+  }
+}
