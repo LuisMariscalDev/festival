@@ -10,6 +10,29 @@ function crearGaleria() {
         const imagen = document.createElement('IMG');
         imagen.src = `src/img/gallery/full/${i}.jpg`;
         imagen.alt = 'Foto de galeria';
+
+        // Event Handler
+        imagen.onclick = function() {
+            mostrarImagen(i);
+        }
+
         galeria.appendChild(imagen);
     }
+}
+
+function mostrarImagen(i) {
+    
+    // Generando el modal
+    const modal = document.createElement('DIV');
+    modal.classList.add('modal');
+    modal.onclick = cerrarModal;
+
+    // Agregar al HTML
+    const body = document.querySelector('body');
+    body.appendChild(modal);
+}
+
+function cerrarModal() {
+    const modal = document.querySelector('.modal');
+    modal?.remove('modal');
 }
