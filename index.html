@@ -13,11 +13,11 @@
 <body>
     <header class="header">
         <div class="contenedor contenido-header">
-            <h1>Rave & EDM Festival</h1>
+            <h1><a href="index.html">Rave & EDM Festival</a></h1>
             <nav class="navegacion-principal">
-                <a href="#">Lineup</a>
-                <a href="#">Galería</a>
-                <a href="#">Boletos</a>
+                <a href="#lineup">Lineup</a>
+                <a href="#galeria">Galería</a>
+                <a href="#boletos">Boletos</a>
             </nav>
         </div>
     </header>
@@ -38,7 +38,11 @@
 
     <section class="sobre-festival">
         <div class="imagen">
-            <img src="src/img/imagen_dj.jpg" alt="sobre el festival">
+            <picture>
+                <source srcset="dist/img/imagen_dj.avif" type="image/avif"/>
+                <source srcset="dist/img/imagen_dj.webp" type="image/webp"/>
+                <img width="300" height="200" loading="lazy" src="dist/img/imagen_dj.jpg" alt="sobre el festival">
+            </picture>
         </div>
         <div class="contenido-festival">
             <h2>Rave & EDM Festival</h2>
@@ -158,8 +162,8 @@
         </div> <!--.escenarios-contenedor -->
     </section>
 
-    <section>
-        <div id="galeria" class="galeria">
+    <section id="galeria" class="galeria">
+        <div>
             <h3>Galería</h3>
 
             <div class="galeria-imagenes">
