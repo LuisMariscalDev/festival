@@ -1,7 +1,3 @@
-Aquí tienes un archivo README en español para tu proyecto "Rave & EDM Festival", incluyendo una sección sobre cómo mejorar el rendimiento web con diferentes formatos de imágenes:
-
----
-
 # Rave & EDM Festival
 
 Este proyecto es un prototipo para el sitio web del Rave & EDM Festival. Fue creado como un ejercicio de aprendizaje para practicar y demostrar habilidades en HTML, Sass, JavaScript, npm y Gulp.
